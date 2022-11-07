@@ -67,7 +67,7 @@ if choices=='House Prediction':
     FullBath=st.number_input("Enter number of Bathrooms",min_value=1,max_value=10,format='%d')
     TotRmsAbvGrd=st.number_input("Enter number of Rooms",min_value=1,max_value=10,format='%d')
     years=tuple([i for i in range(1872,2011)])
-    YearBuilt=st.selectbox("Select the overall quality(10 being 'Very Excellent' and 1 being 'very poor')",years)
+    YearBuilt=st.selectbox("Select the built year of the house ')",years)
     remyears=tuple([i for i in range(1950,2011)])
     YearRemodAdd=st.selectbox("Select Remodel date (same as construction date if no remodeling or additions)",remyears)
     garyears=tuple([i for i in range(1872,2011)])
